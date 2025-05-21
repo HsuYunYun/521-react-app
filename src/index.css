@@ -50,6 +50,7 @@ button:hover {
   border-color: #646cff;
 }
 button:focus,
+
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
@@ -65,4 +66,12 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+div.inside{
+  background-color: #a1a9e2;
+  padding: 5px;
+}
+div.word{
+  background-color: #dbdce4;
+  padding: 5px;
 }
