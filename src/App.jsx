@@ -4,8 +4,6 @@ import viteLogo from "/vite.svg";
 import "./App.css";
 import MySlider from "./component/rgb-panel/MySlider";
 import MyPanel from "./component/rgb-panel/MyPanel";
-import MyCalculator from "./component/calculator/MyCalculator";
-import TicTacToe from "./component/tic-tac-toe/TicTacToe";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -39,18 +37,6 @@ function App() {
       <br />
       <h2>第二個元件：RGB色彩面板</h2>
       <MyPanel />
-      <h2>第三個元件:計算機</h2>
-      <MyCalculator />
-      <h2>第四個元件:井字遊戲</h2>
-      <TicTacToe />
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
